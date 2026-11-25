@@ -200,3 +200,5 @@ plt.show()
 
 # RESULT:
        To read the given data and perform Feature Encoding and Transformation process and save the data to a file is successfully completed
+# SUMMARY:
+The given datasets were successfully read using Pandas, and various Feature Encoding and Feature Transformation techniques were applied. Categorical features were converted into numerical values using Ordinal Encoding, Label Encoding, One-Hot Encoding, Binary Encoding, and Target Encoding. Numerical features were transformed using Log, Reciprocal, Square Root, Square, Box-Cox, Yeo-Johnson, and Quantile Transformation techniques to reduce skewness and improve data distribution. The skewness of the features was analyzed, and Q-Q plots were used to visualize the distribution before and after transformation. Finally, the processed dataset was prepared for further analysis and machine learning applications.
